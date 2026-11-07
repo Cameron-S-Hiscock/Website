@@ -3,18 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Cameron Hiscock</title>
-    <link rel="stylesheet" href="styles/colors.css">
-    <link rel="stylesheet" href="styles/style.css">
-    <script type="module" src="index.js"></script>
+    <title>CSH-S</title>
+    <link rel="stylesheet" href="/styles/colors.css">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/content.css">
+    <script type="module" src="/index.js"></script>
 </head>
 <body>
-    <h1>Hello World!</h1>
-    <p>This is a test!</p>
-    <a href="projects/projects.html">Projects</a>
-    <br>
-    <a href="news.html">News</a>
-    <br>
-    <a href="about.html">About</a>
+    <h1 class="page-title" id="page-title">Cameron-S-Hiscock</h1><br>
+
+    <div id="projects-grid" class="content">
+        <h2 class="content-title" id="projects">Projects</h2><br>
+        <div id="projects-btn-grid" class="content-grid">
+            <div id="access-seg" class="project">
+                <button id="access-btn" onclick="changePage('/projects/access.html')" class="content-grid-element">ACCESS</button>
+            </div>
+            <div id="cagis-seg" class="project">
+                <button id="cagis-btn" onclick="changePage('/projects/cagis.html')" class="content-grid-element">CAGIS</button>
+            </div>
+            <div id="csh-s-com-seg" class="project">
+                <button id="csh-s-com-btn" onclick="changePage('/projects/csh-s-com.html')" class="content-grid-element">CSH-S-COM</button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

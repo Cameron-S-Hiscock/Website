@@ -1,0 +1,22 @@
+body {
+    background: linear-gradient(
+        to bottom,
+        /* var(--cerise) 10%, */
+        /* var(--vintage-vessel), */
+        var(--loyal-blue) 60%,
+        var(--fabulous-grape) 90%,
+        var(--onyx) 100%
+    ) no-repeat fixed center;
+    color: var(--onyx);
+}
+
+.page-title {
+    font-size: 64px;
+    font-weight: 900;
+    text-align: center;
+    border: 6px solid var(--onyx);
+    border-radius: 16px;
+    margin: auto;
+    width: fit-content;
+    padding: 2px;
+}

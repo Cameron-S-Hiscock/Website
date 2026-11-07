@@ -1,5 +1,9 @@
 let neighbors = [];
 let neighborList = document.getElementById("net-neighbors-list");
+if(neighborList == null) {
+    console.log("Neighbor list is null");
+    return
+}
 neighborList.innerHTML = "";
 
 function initNeighbors() {
